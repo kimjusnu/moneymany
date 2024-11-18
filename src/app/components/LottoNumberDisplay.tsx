@@ -7,7 +7,7 @@ const LottoNumberDisplay = ({ number }: LottoNumberDisplayProps) => {
         <div>
             {number.map((number, index) => (
                 <div key={index} className="">
-                    {number}
+                    {index + 1}번째 번호: {number}
                 </div>
             ))}
         </div>
