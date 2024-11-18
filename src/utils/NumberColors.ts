@@ -1,8 +1,4 @@
-interface LottoNumberDisplayProps {
-    number: number[];
-}
-
-const NumberColors: { [key: number]: string } = {
+export const NumberColors: { [key: number]: string } = {
     1: "bg-lime-300",
     2: "bg-rose-300",
     3: "bg-amber-300",
@@ -50,25 +46,6 @@ const NumberColors: { [key: number]: string } = {
     45: "bg-pink-600",
 };
 
-const LottoNumberDisplay = ({ number }: LottoNumberDisplayProps) => {
-    const getNumberColor = (number: number) => {
-        return NumberColors[number];
-    };
-
-    return (
-        <div className="flex flex-wrap gap-4 mt-4 ">
-            {number.map((num, index) => (
-                <div
-                    key={index}
-                    className={`w-14 h-14 rounded-full flex items-center justify-center text-2xl font-semibold text-black shadow-md ${getNumberColor(
-                        num
-                    )}`}
-                >
-                    {num}
-                </div>
-            ))}
-        </div>
-    );
+export const getNumberColor = (number: number) => {
+    return NumberColors[number];
 };
-
-export default LottoNumberDisplay;

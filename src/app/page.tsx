@@ -17,8 +17,10 @@ const Page = () => {
     };
 
     return (
-        <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4">
-            <h1 className="text-2xl font-bold mb-4">로또 번호 생성</h1>
+        <div className="min-h-screen flex  flex-col items-center justify-center bg-gradient p-6">
+            <h1 className="text-3xl font-bold text-slate-200 mb-4">
+                로또 번호 생성기
+            </h1>
             <LottoNumberDisplay number={number} />
             <CreateNumberButton onClick={handleCreateNumber} />
         </div>
