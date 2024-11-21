@@ -19,6 +19,10 @@ export default function RootLayout({
         <html lang="ko">
             <head>
                 <meta
+                    name="google-site-verification"
+                    content="IF3-fq0lvvNTcCCxBMZFtZea5z6sFe8Z3olALXzA4QE"
+                />
+                <meta
                     name="keywords"
                     content="로또 번호 생성기, 로또 번호 추천, 로또 자동 번호, 랜덤 로또 번호, 행운의 번호, 로또 조합기, 로또 전략, 로또 분석, 로또 당첨 번호, 로또 번호 조합, 로또 예측, 로또 시뮬레이션, 로또 패턴, 로또 당첨 확률 높이기"
                 />
