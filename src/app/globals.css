@@ -10,7 +10,11 @@
     font-style: normal;
 }
 
+body {
+    font-family: "Pretendard-Regular", sans-serif;
+}
+
 .bg-gradient {
-    @apply bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800;
+    @apply bg-gradient-to-br from-slate-950 via-slate-800 to-slate-800;
     background-size: 200% 200%;
 }
